@@ -1,3 +1,6 @@
+
+CREATE DATABASE company;
+
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
@@ -5,7 +8,6 @@ CREATE TABLE employees (
     salary INT NOT NULL,
     hire_date DATE NOT NULL
 );
-
 
 INSERT INTO employees (employee_id, name, department, salary, hire_date) VALUES
 (1, 'Alice', 'HR', 70000, '2019-01-15'),
